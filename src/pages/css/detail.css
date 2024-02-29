@@ -1,0 +1,66 @@
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+  /* Example content styling */
+  section {
+    height: auto;
+    padding: 20px;
+    border: 1px solid #ededed;
+    margin-top: -30px;
+    /* margin-left: 16%; */
+
+    /* z-index: -1; */
+  }
+
+.tabs {
+  height: auto;
+  margin-top: -35px;
+  position: sticky;
+  top: 0;
+  /* z-index: 1000; */
+  /* background-color: white; */
+}
+
+  
+.tabs ul li a[href]:target {
+    color: red; /* Add your styles here */
+  }
+  
+
+/* .carousel {
+  position: relative;
+}
+
+  .tabs {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    top: 54%;
+
+  }
+
+  .tabs nav {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    width: 45%;
+    top: 0;
+  }
+
+  .tabs .reserve {
+    width: 22%;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+  } */
+
+  
